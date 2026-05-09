@@ -1,0 +1,38 @@
+# ========================
+# .NET Core (MVC)
+# ========================
+[B|b]in/
+[O|o]bj/
+appsettings.Development.json
+appsettings.Secret.json
+
+# ========================
+# Node.js (Microservicio)
+# ========================
+node_modules/
+npm-debug.log
+.env
+
+# ========================
+# Docker / Bases de Datos
+# ========================
+db/data/
+*.mdf
+*.ldf
+*.ndf
+
+# ========================
+# Archivos Físicos del Sistema (¡CRÍTICO!)
+# ========================
+qdoc-files/*
+!qdoc-files/.gitkeep
+
+# ========================
+# IDEs y SO
+# ========================
+.vscode/
+.vs/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
